@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:syncfusion_column_barchart/screens/homepage.dart';
 
-class Barchart extends StatelessWidget {
-const Barchart({ Key? key }) : super(key: key);
+class CartesianChart extends StatelessWidget {
+const CartesianChart({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context){
@@ -9,6 +10,7 @@ const Barchart({ Key? key }) : super(key: key);
       debugShowCheckedModeBanner: false,
       title: 'Bar code',
       theme: ThemeData(primarySwatch: Colors.blue),
+      home: const Homepage(),
     );
   }
 }

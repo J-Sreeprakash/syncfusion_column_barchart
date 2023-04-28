@@ -7,14 +7,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:syncfusion_column_barchart/barchart.dart';
+import 'package:syncfusion_column_barchart/cartesian_chart.dart';
 
 
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const Barchart());
+    await tester.pumpWidget(const CartesianChart());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

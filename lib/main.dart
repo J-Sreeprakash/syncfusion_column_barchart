@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'barchart.dart';
+import 'cartesian_chart.dart';
 
 void main() {
-  runApp(const Barchart());
+  runApp(const CartesianChart());
 }
