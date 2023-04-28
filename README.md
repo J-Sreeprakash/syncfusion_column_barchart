@@ -1,0 +1,1 @@
+# syncfusion_column_barchart
